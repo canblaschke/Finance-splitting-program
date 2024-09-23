@@ -1,6 +1,9 @@
 # Description for two different python program proposals; one on wind data visualisation, and the other on finance splitting:
 
 
+- Student Name: Can Bayaan Blaschke
+- Student Number: 6058027
+
 I have written proposals for two different projects that utilize a python script for the processing of input data for an output that is either tedious, although not difficult to calculate, or for the visualization of data on a map, for easier interpretation, including data interpolation. The two proposals are as follows:
 
 Proposal 1:
