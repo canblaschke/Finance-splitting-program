@@ -1,23 +1,28 @@
-# Description for two different python program proposals; one on wind data visualisation, and the other on finance splitting:
+# Finance-splitting-program:
 
 
-- Student Name: Can Bayaan Blaschke
-- Student Number: 6058027
+  - Student Name: Can Bayaan Blaschke
+  - Student Number: 6058027
 
-I have written proposals for two different projects that utilize a python script for the processing of input data for an output that is either tedious, although not difficult to calculate, or for the visualization of data on a map, for easier interpretation, including data interpolation. The two proposals are as follows:
+Project overview:
+  Finance-splitting-program is a program that allows simple and efficient splitting of finances, with a retrievable overview one command away. The input for this program consists of      the expenditure of each individual within a community of people that want to split costs. Data is collected with accessible user input prompts that make the process efficient and       easy to understand. The program is able to create basic computations that allow individuals of the community to regulate and organize the way expenses are shared, by dividing the       money owed amongst those who are supposed to contribute to the financing of the expenditure. More specifically who is supposed to contribute to the financing of the cost is a           flexible variable, as, perhaps, not every cost is shared amongst everyone in this group of participants.
 
-Proposal 1:
-My first proposal is for a script that takes wind data, combined with GNSS data to plot wind vectors on the map of a certain area, creating a sort of direction field with arrows pointing towards the wind direction, and their size representing the magnitude of the wind. If the input data is incomplete, the script should be able to interpolate the data to fill the blank areas of the map. This way, the output of the script should be a map with an overlaying layer of arrows indicating the magnitude and direction of airflow.
+Libraries:
+  - Numpy - The package makes use of Numpy for simple matrix calculations.
+  - Patch from unittest.mock - The package makes use of Patch in the pytesting process, but not for the actual code.
+  - Pytest - The package makes use of pytest for pytesting, but not for the actual code.
 
-Proposal 2:
-My second proposal is a program in which the input of data is the expenditure of each individual within a community of people that want to split costs. The program should be able to create basic computations that allow individuals of the community to regulate and organize the way expenses are shared, by dividing the money owed amongst those who are supposed to contribute to the financing of the expenditure. More specifically who is supposed to contribute to the financing of the cost should be a flexible variable, as, perhaps, not every cost is shared amongst everyone in this group of participants.
+Data requirements:
+  The program requires no input data in form of a file. Almst all the data used in this program is obtained through user input prompts. The only exception is the data used to create      the prompts. This is input into the functions, for which docstrings are provided. In that sense, there are no true requirements for the data.
 
-In the end, I decided to opt for the finance-splitting code (Proposal 2), as I felt like this data is more accessible for use and testing. I am currently at the very beginning of developing this code, and have so far been able to write a few code lines to  be able to start a new finance-splitting collaboration, with i number of named participants, and a chosen name for the project.
+Ideal outcome:
+  Ideally, the program will provide an overview on the debts owed by each person. This data is stored in a dictionary containing a matrix for each participant. Retrieved data is made     more accessible by making it part of a printed statement that explains the meaning of each value.
 
-This is the first of five kinds of input that will be asked for in this project. The five kinds of input are:
-- Number and names of participants in entire project
-- Name of transaction fulfiller
-- Size of transaction
-- Kind of transaction
-- People involved in transaction
+Example usage:
+![image](https://github.com/user-attachments/assets/dff71b10-1e80-4470-bc16-c3a860ff3798)
 
+Test results screenshot:
+![image](https://github.com/user-attachments/assets/7b81798a-9259-4d4d-b215-a91ca0ca8823)
+
+Why you should use this program:
+This program should be able to provide you with an easy way to manage your finances. Our developers are constantly trying to improve this program to suit your needs as well as possible. Using this would, not only facilitate easy finance overviews, but also allow us to continue learning and building upon what we have created thus far.
