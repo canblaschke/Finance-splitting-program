@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "Finance-splitting-program"
+version = "0.1.0"
+description = "A simple python package that allows a group of people, of any size, to split finances easily and efficiently."
+authors = [ 
+    {name = "Can Bayaan Blaschke", email = "canblaschke123@gmail.com"},
+]
+dependencies = ["numpy", "pytest", "patch from unittest.mock"]
